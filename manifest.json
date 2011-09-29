@@ -1,0 +1,16 @@
+{
+  "name": "Google阅读器插件",
+  "version": "1.0",
+  "description": "扩大Google阅读器的可读区域",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.gif"
+  },
+  "content_scripts": [ {
+    "matches": ["http://www.google.com/reader/*", "https://www.google.com/reader/*"], 
+    "js": ["content.js"],
+    "all_frames": true
+  }]
+}
