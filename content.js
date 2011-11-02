@@ -3,10 +3,10 @@ function fun(){
 		document.getElementById("top-bar").style.display="none";
 	}catch(e){}
 	try{
-		document.getElementById("chrome-header").style.display="none";
+		document.getElementById("lhn-add-subscription-section").style.display="none";
 	}catch(e){}
 	try{
-		document.getElementById("viewer-footer").style.display="none";
+		document.getElementById("viewer-header").style.display="none";
 	}catch(e){}
 	//alert("ok");
 }
